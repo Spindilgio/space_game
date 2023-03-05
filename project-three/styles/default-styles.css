@@ -1,0 +1,78 @@
+body {
+	background: #eeeeee;
+	font-family: tahoma, verdana, sans serif, 'Orbitron';
+  min-height: 100vh;
+}
+
+canvas {
+	margin-left: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+  padding: 1px;
+	box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+	background: #fafafa;
+  cursor: default;
+}
+
+.navbar-item{
+  font-family: 'Orbitron';
+}
+
+h1 {
+  font-family: 'Orbitron';
+}
+
+a#home{
+  color:rgb(245, 245, 245)
+}
+
+a#app{
+  color:rgb(245, 245, 245)
+}
+
+a#doc{
+  color:rgb(245, 245, 245)
+}
+
+a#home:hover{
+  background-color: black;
+  color:aquamarine;
+}
+
+a#app:hover{
+  background-color: black;
+  color: aquamarine;
+}
+
+a#doc:hover{
+  background-color: black;
+  color: aquamarine;
+}
+
+div#controls.interface{
+  padding:7px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+}
+
+#volumeLabel{
+  margin-left: 1rem;
+}
+
+section{
+  margin-bottom: 1rem;
+}
+
+#playButton{
+  font-size: 1.2rem;
+  width: 6rem;
+}
+
+button[data-playing="yes"]:after{
+  content: "Pause";
+}
+
+button[data-playing="no"]:after{
+  content: "Play";
+}

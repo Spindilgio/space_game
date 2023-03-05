@@ -1,0 +1,15 @@
+Controls page (title page)
+end screen
+better fonts
+ 
+-home + documentation pages GOTTA FILL
+
+-JSON implementation (hard, and worth ten points...) second-to-last, possibly not hard though...
+-...fucking MOBILE FRIENDLY...ugh.. absolute LAST goddamn priority
+
+
+STRETCH GOALS:
+
+shuffle mode
+actual audio analysis
+change star color as time progresses
